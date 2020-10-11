@@ -1,7 +1,9 @@
 //#include "operacoes.h"
 
-int MAX_LINHAS = 50;
-int MAX_COLUNAS = 50;
+#define MAX_LINHAS 50;
+#define MAX_COLUNAS 50;
+
+//para constantes cria o hábito de usar o define, ele é imutável no código, diferente de declarar int x. Ele já ta formatado na boa prática de constantes haha sempre em caps lock
 
 void soma(int a[MAX_LINHAS][MAX_COLUNAS], int b[MAX_LINHAS][MAX_COLUNAS], int n_linhas, int n_colunas, int resp[MAX_LINHAS][MAX_COLUNAS])
 {
